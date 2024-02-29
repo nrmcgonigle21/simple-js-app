@@ -16,7 +16,7 @@ for (let i = 0; i < pokemonList.length; i++) {
 //loop through the list array
 for (let i = 0; i < pokemonList.length; i++) {
     let pokemon = pokemonList[i];
-    let heightLabel = ` (height: ${pokemon.height})`; 
+    let heightLabel = ` (height: ${pokemon.height})`;
     //Height label
     if (pokemonList[i].height === tallestHeight) {
         heightLabel += " - Wow, that's big!";
@@ -24,6 +24,6 @@ for (let i = 0; i < pokemonList.length; i++) {
     // Prints the pokemon name followed by its height and label
     document.write(`<p>${pokemon.name}${heightLabel}</p>`);
 }
- 
+
 
 
