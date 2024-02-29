@@ -16,7 +16,7 @@ for (let i = 0; i < pokemonList.length; i++) {
 //loop through the list array
 for (let i = 0; i < pokemonList.length; i++) {
     if (pokemonList[i].height === tallestHeight) {
-        document.write(`<span><strong class="pokename">${pokemonList[i].name} - Wow, that's big!</strong> (${pokemonList[i].height})</span><br>`);
+        document.write(`<span><strong class="pokename">${pokemonList[i].name}  </strong> (${pokemonList[i].height}) - Wow, that's big!</span><br>`);
     } else {
         document.write(`<span><strong class="pokename">${pokemonList[i].name}</strong> (${pokemonList[i].height})</span><br>`);
     }
