@@ -6,6 +6,6 @@ pokemonList.push(
 );
 //loop through the list array
 for (let i=0; i < pokemonList.length; i++) {
-    document.write(`<h2>${pokemonList[i].name}</h2> <p>${pokemonList[i].height}</p>`)
+    document.write(`<span><strong class="pokename">${pokemonList[i].name}</strong> (${pokemonList[i].height})</span><br>`)
 }
 
